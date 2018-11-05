@@ -68,5 +68,6 @@ section:after {
         width: 100%;
         text-align: center;
         padding-left: 0em;
+        padding-right: 0em;
       }
 }
