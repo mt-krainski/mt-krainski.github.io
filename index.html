@@ -26,7 +26,21 @@
 
     </section>
 
+    <picture>
+      <img src="img/profile_pro.png" style="width:250px" alt="My picture">
+    </picture>
 
+    <footer>
+      Designed by Mateusz Krainski, photo by <a href="http://welovephoto.pl/">We Love Photo</a>
+      <p id='my_email'></p>
+    </footer>
+
+
+  <script>
+    var domain = "krainski.eu"
+    var email = "mateusz" + "@" + domain
+    document.getElementById("my_email").innerHTML = "<a href='mailto:"+email+"'>"+email+"</a>"
+  </script>
 
 
   </body>
