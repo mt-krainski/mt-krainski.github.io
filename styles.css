@@ -1,15 +1,4 @@
 
-@font-face {
-    font-family: Dense;
-    src: url("fonts/Dense/Dense-Regular.otf");
-}
-
-
-@font-face {
-    font-family: Simplifica;
-    src: url("fonts/Simplifica/SIMPLIFICA Typeface.ttf");
-}
-
 
 header, nav, footer{
   font-family: 'Open Sans', 'Helvetica', sans-serif;
