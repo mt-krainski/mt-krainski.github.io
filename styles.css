@@ -79,11 +79,16 @@ footer a:hover, a:active{
         float: left;
       }
 
+      header {
+        font-size: 2.5em;
+      }
+
       nav {
         width: 100%;
         text-align: center;
         padding-left: 0em;
         padding-right: 0em;
+        font-size: 1em;
       }
 
       picture {
