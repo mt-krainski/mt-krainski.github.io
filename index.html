@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>krainski.eu</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
   </head>
   <body>
-
     <section>
-      <header>
-        krainski.eu
-      </header>
+      <header>krainski.eu</header>
 
       <nav>
         <!-- <a href="#">Bio</a>
         <a href="#">Portfolio</a>
         <a href="#">Services</a>
         <a href="#">Contact</a> -->
-        <hr style="background-color: #2196f3; height: 1px; border: 0">
+        <hr style="background-color: #2196f3; height: 1px; border: 0" />
       </nav>
-
     </section>
 
     <picture>
-      <img src="img/profile_pro.png" style="width:200px" alt="My picture">
+      <img src="img/profile.png" style="width: 200px" alt="My picture" />
     </picture>
 
     <article>
-      <p>Hello there! My name is <b>Mateusz</b>, welcome on my personal website! </p>
+      <div>
+        <p>Hello there! My name is <b>Mateusz</b>.</p>
+      </div>
 
-      <p>I have experience in multiple high-tech fields such as robotics or space systems. I'm passionate about software engineering, data science, public speaking and many other fields.
-      Let me know if I can help you with something! I am currently open for consulting and freelancing opportunities. </p>
-
+      <div>
+        <p>
+          I'm an experienced Software Engineer with interest in cloud
+          technologies, web systems, good engineering practices, robotics, and
+          space technologies.
+        </p>
+        <p>
+          I provide consulting services related to:
+          <li>Software Development</li>
+          <li>Software Engineering Management</li>
+          <li>Software Architecture Design and Review</li>
+          <li>Product Development</li>
+        </p>
+      </div>
     </article>
 
     <footer>
-      Designed by Mateusz Krainski, photo by <a href="http://welovephoto.pl/">We Love Photo</a>
-      <p id='my_email'></p>
+      <p id="my_email"></p>
     </footer>
 
-
-  <script>
-    var domain = "krainski.eu"
-    document.getElementById("my_email").innerHTML = "mateusz" + "@" + domain
-  </script>
-
-
+    <script>
+      var domain = "krainski.eu";
+      document.getElementById("my_email").innerHTML = "mateusz" + "@" + domain;
+    </script>
   </body>
 </html>
